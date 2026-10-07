@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mouhamadou Falilou Kandji — Data engineer</title>
+<meta name="description" content="Étudiant en Master 2 Science et Ingénierie des Données à Aix-Marseille Université. Pipelines de données (Airflow, Kafka), bases SQL et NoSQL, AWS et Power BI. Recherche un stage de fin d'études à partir de fin février 2027.">
+<meta property="og:title" content="Mouhamadou Falilou Kandji — Data engineer">
+<meta property="og:description" content="Pipelines de données, streaming, cloud AWS et visualisation. Recherche un stage de fin d'études à partir de fin février 2027.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#16203A">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#projets" data-i18n="skip">Aller aux projets</a>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="nav-name" href="#top">M. F. Kandji</a>
+    <nav aria-label="Sections">
+      <a href="#projets" data-i18n="nav.projects">Projets</a>
+      <a href="#competences" data-i18n="nav.skills">Compétences</a>
+      <a href="#parcours" data-i18n="nav.path">Parcours</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <button class="lang" id="lang" type="button" aria-label="Switch to English">EN</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <h1 class="name">Mouhamadou Falilou<br>Kandji</h1>
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="role" data-i18n="hero.role">Étudiant en Master 2 Science et Ingénierie des Données à Aix-Marseille Université. Je construis des pipelines qui amènent la donnée brute jusqu'aux tableaux de bord.</p>
+        <p class="status"><span class="pulse" aria-hidden="true"></span><span data-i18n="hero.status">Je recherche un stage de fin d'études en data engineering et visualisation, à partir de fin février 2027.</span></p>
+        <div class="actions">
+          <a class="btn btn-primary" href="CV_Mouhamadou_Falilou_KANDJI.pdf" download data-i18n="hero.cv">Télécharger mon CV</a>
+          <a class="btn" href="https://github.com/Mouhamadoukandji" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/mouhamadou-falilou-kandji" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <figure class="hero-fig">
+        <div class="diagram" id="heroDiagram"></div>
+        <figcaption data-i18n="hero.caption">De la source au tableau de bord : les outils que j'utilise à chaque étape.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section wrap" id="projets" aria-labelledby="h-projects">
+    <div class="section-head">
+      <h2 id="h-projects" data-i18n="projects.title">Projets</h2>
+      <p data-i18n="projects.lead">Chaque projet est présenté avec son architecture : d'où vient la donnée, comment elle est traitée, où elle arrive.</p>
+    </div>
+    <div id="projectList"></div>
+  </section>
+
+  <section class="section wrap" id="competences" aria-labelledby="h-skills">
+    <div class="section-head">
+      <h2 id="h-skills" data-i18n="skills.title">Compétences</h2>
+      <p data-i18n="skills.lead">Rangées selon l'étape du pipeline où je les utilise.</p>
+    </div>
+    <ol class="stages" id="stages"></ol>
+    <div class="extras" id="extras"></div>
+  </section>
+
+  <section class="section wrap" id="parcours" aria-labelledby="h-path">
+    <div class="section-head">
+      <h2 id="h-path" data-i18n="path.title">Parcours</h2>
+    </div>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section class="section wrap contact" id="contact" aria-labelledby="h-contact">
+    <h2 id="h-contact" data-i18n="contact.title">Travaillons ensemble</h2>
+    <p data-i18n="contact.lead">Vous cherchez un stagiaire data engineer à partir de fin février 2027 ? Écrivez-moi, je réponds rapidement.</p>
+    <a class="mail" href="mailto:kandjifallou114@gmail.com">kandjifallou114@gmail.com</a>
+    <div class="actions">
+      <a class="btn btn-primary" href="CV_Mouhamadou_Falilou_KANDJI.pdf" download data-i18n="hero.cv">Télécharger mon CV</a>
+      <a class="btn" href="https://www.linkedin.com/in/mouhamadou-falilou-kandji" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/Mouhamadoukandji" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <span>Mouhamadou Falilou Kandji, Marseille</span>
+  <span data-i18n="foot">Site fait main, hébergé sur GitHub Pages</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
