@@ -1,64 +1,32 @@
-# Portfolio — Mouhamadou Falilou Kandji
+# Portfolio : Mouhamadou Falilou Kandji
 
-Site personnel statique (HTML, CSS, JavaScript, sans dépendance), en français et
-en anglais, prévu pour GitHub Pages.
+**Data Scientist & Data Engineer** · Master 2 Science et Ingénierie des Données, Aix-Marseille Université
 
-## Mettre en ligne sur GitHub Pages (5 minutes)
+🔗 **[mouhamadoukandji.github.io](https://mouhamadoukandji.github.io)**
 
-1. Sur GitHub, crée un nouveau dépôt **public** nommé exactement
-   `Mouhamadoukandji.github.io`.
-2. Dans le dépôt : **Add file → Upload files**, glisse tous les fichiers de ce
-   dossier (`index.html`, `style.css`, `main.js`, `favicon.svg`, le CV en PDF,
-   ce README), puis **Commit changes**.
-3. **Settings → Pages** : dans *Build and deployment*, choisis
-   *Deploy from a branch*, branche `main`, dossier `/ (root)`, puis **Save**.
-4. Après une à deux minutes, le site est en ligne sur
-   **https://mouhamadoukandji.github.io**
+Site personnel bilingue (français / anglais) qui présente mes projets en machine learning, IA générative (LLM, RAG, text-to-SQL) et data engineering, chacun avec un schéma de son architecture.
 
-Ou en ligne de commande :
+| Projet | Thème | Code |
+| --- | --- | --- |
+| HotelBot | Text-to-SQL avec un LLM, sécurité et évaluation | [HotelBot_Kandji](https://github.com/Mouhamadoukandji/HotelBot_Kandji) · [démo](https://hotelbot-kandji.streamlit.app) |
+| Assistant RAG droit du travail | Recherche hybride (embeddings + BM25), fiabilité | en cours |
+| ML sur données NF1 | Classification (SVM, régression logistique, forêts aléatoires) | en cours |
+| Pipeline ETL et entrepôt | Airflow, PostgreSQL, API ouvertes | |
+| Streaming de paiements | Apache Kafka, Java | |
 
-```bash
-git init && git add . && git commit -m "Portfolio"
-git branch -M main
-git remote add origin https://github.com/Mouhamadoukandji/Mouhamadoukandji.github.io.git
-git push -u origin main
-```
+Je recherche un **stage de fin d'études de 6 mois** en data science, IA ou data engineering, avec un début entre janvier et avril 2027.
+Contact : kandjifallou114@gmail.com · [LinkedIn](https://www.linkedin.com/in/mouhamadou-falilou-kandji)
 
-Pour mettre le site à jour ensuite : modifie les fichiers et refais un commit,
-GitHub Pages republie automatiquement.
+---
 
-## Ce qu'il reste à compléter
+## Technique
 
-**Liens des projets** — en haut de `main.js`, bloc `REPOS` : colle l'adresse de
-chaque dépôt quand il est public. Tant qu'un lien est vide, le projet renvoie
-vers ton profil GitHub (sauf Fayma, affiché « code non public »).
+Site statique fait main (HTML, CSS, JavaScript sans dépendance), hébergé sur GitHub Pages. Les schémas d'architecture sont générés en SVG à partir des données des projets.
 
-```js
-var REPOS = {
-  etl:   "https://github.com/Mouhamadoukandji/pipeline-etl-airflow",
-  kafka: "",
-  ...
-};
-```
+Tous les contenus sont dans `main.js`, en français et en anglais :
 
-**Captures d'écran** (Power BI, Airflow) — dépose l'image dans le dossier, par
-exemple `powerbi.png`, et demande-moi de l'ajouter au projet : elle peut
-s'afficher sous le schéma ou à sa place.
-
-**Photo** — même chose : dépose-la (format carré, 600 × 600 px environ) et
-je l'intègre à côté de ton nom.
-
-**CV** — remplace `CV_Mouhamadou_Falilou_KANDJI.pdf` par la nouvelle version en
-gardant le même nom de fichier. Attention : le CV actuel contient ton numéro de
-téléphone, qui sera donc téléchargeable par tous les visiteurs.
-
-## Modifier les textes
-
-Tous les contenus sont dans `main.js` :
-
-- `T` : textes de l'interface (titres, boutons) en français et en anglais ;
-- `PROJECTS` : les projets, leurs points clés, technologies et schémas ;
-- `STAGES` : compétences par étape du pipeline ;
-- `TIMELINE` : formations et expériences.
-
-Chaque texte existe en `fr` et en `en` : pense à modifier les deux.
+- `REPOS` : lien GitHub de chaque projet (vide = projet sans lien public) ;
+- `PROJECTS` : projets, points clés, technologies, schémas, lien de démo éventuel (`demo`), projet en cours (`soon: true`) ;
+- `STAGES` : compétences par étape ;
+- `TIMELINE` : formations et expériences ;
+- `T` : textes de l'interface.
