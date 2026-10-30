@@ -344,7 +344,7 @@
         '<p class="desc">' + esc(tr(p.desc)) + '</p>' +
         '<ul>' + tr(p.points).map(function(x){ return "<li>" + esc(x) + "</li>"; }).join("") + '</ul>' +
         '<ul class="stack" aria-label="Technologies">' + p.stack.map(function(s){ return "<li>" + esc(s) + "</li>"; }).join("") + '</ul>' +
-        '<p class="links">' + (repo ? '<a href="' + esc(repo) + '" target="_blank" rel="noopener">' + T[lang]["projects.code"] + '</a>' : (p.id === "fayma" ? '<span>' + T[lang]["projects.private"] + '</span>' : (p.soon ? '<span>' + T[lang]["projects.soon"] + '</span>' : '<a href="' + GITHUB + '" target="_blank" rel="noopener">' + T[lang]["projects.code"] + '</a>'))) +
+        '<p class="links">' + (repo ? '<a href="' + esc(repo) + '" target="_blank" rel="noopener">' + T[lang]["projects.code"] + '</a>' : (p.id === "fayma" ? '<span>' + T[lang]["projects.private"] + '</span>' : (p.soon ? '<span>' + T[lang]["projects.soon"] + '</span>' : ''))) +
         (p.demo ? ' · <a href="' + esc(p.demo) + '" target="_blank" rel="noopener">' + T[lang]["projects.demo"] + '</a>' : '') + '</p></div>' +
         '<div class="fig"><div class="diagram" data-p="' + p.id + '"></div></div></article>';
     }).join("");
