@@ -1,4 +1,4 @@
-# Portfolio : Mouhamadou Falilou Kandji
+# Portfolio: Mouhamadou Falilou Kandji
 
 **Data Scientist & Data Engineer** · Master 2 Science et Ingénierie des Données, Aix-Marseille Université
 
