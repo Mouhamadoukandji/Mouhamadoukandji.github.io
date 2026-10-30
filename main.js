@@ -2,7 +2,7 @@
   "use strict";
 
   // ==========================================================================
-  // LIENS À COMPLÉTER
+  // LIENS À COMPLÉTER 
   // Ajoutez ici l'adresse GitHub de chaque projet quand le dépôt est public.
   // Laissé vide, le projet renvoie vers votre profil GitHub.
   // ==========================================================================
